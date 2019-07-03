@@ -9,19 +9,26 @@ module.exports = {
     },
     extend: {
       colors: {
-        'KR-blue': '#294C5D',
-        'KR-red': '#CC414F',
-        'KR-white': '#f7f4f2',
-        'KR-dark-purple': '#201923',
-        'KR-light-purple': '#aa86a2'
+        'primary': '#082736',
+        'primary-light': '#6290a4',
+        'secondary': '#18151c',
+        'secondary-light': '#756265',
+        'callout': '#CC414F',
+        'white': '#f8f8f8'
 
-        // 'KR-blue': '#294C5D',
+        // 'primary': '#294C5D',
+        // 'callout': '#CC414F',
+        // 'KR-white': '#f7f4f2',
+        // 'secondary': '#201923',
+        // 'secondary-light': '#aa86a2'
+
+        // 'primary': '#294C5D',
         // 'KR-grey-darker': '#4a4a4a',
         // 'KR-grey-lighter': '#7D9099',
         // 'KR-grey-lightest': 'E6E6E6',
         // 'KR-cyan': '#6BFFE0',
         // 'KR-peach': '#FFB5AB',
-        // 'KR-red': '#CC414F'
+        // 'callout': '#CC414F'
       }
     }
   },

@@ -7,4 +7,4 @@ Much of my recent work is under NDA. If you're curious about my current work, co
 
 The samples below are rather old, but I completely re-designed them a couple of years ago. They'll give you a basic idea of what I've done in the past.
 
-<Projects-Sampler />
+<Samples-Sampler />

@@ -7,7 +7,3 @@
     <slot name="bottom"/>
   </main>
 </template>
-
-<script>
-
-</script>

@@ -1,13 +1,14 @@
 <template>
   <div class="m-10 text-secondary text-lg">
     <Navbar />
+    <div class="flex m-10 justify-center">
+      <Home v-if="$page.frontmatter.home" class="max-w-6xl" />
 
-    <Home v-if="$page.frontmatter.home" class="m-10" />
-
-    <Page v-else class="m-10">
-      <slot name="page-top" slot="top" />
-      <slot name="page-bottom" slot="bottom" />
-    </Page>
+      <Page v-else class="max-w-6xl">
+        <slot name="page-top" slot="top" />
+        <slot name="page-bottom" slot="bottom" />
+      </Page>
+    </div>
 
     <footer>
       <div class="gradient-bar h-1 rounded-t"></div>

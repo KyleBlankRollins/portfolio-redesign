@@ -28,7 +28,7 @@
               class="p-2 mx-1 bg-secondary-light border-2 border-secondary items-center"
               v-for="tag in post.frontmatter.tags"
             >
-              <p class="mb-0 p-0 font-mono">{{ tag.name }}</p>
+              <p class="margin-override font-mono">{{ tag.name }}</p>
             </div>
           </div>
         </div>

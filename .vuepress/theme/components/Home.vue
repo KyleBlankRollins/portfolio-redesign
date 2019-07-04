@@ -6,8 +6,9 @@
         <img src="/images/Kyle.jpg" alt="Kyle and family at SeaWorld" class="rounded pb-4">
 
         <div class="px-2 py-2">
-          <div class="text-center border-b border-primary">
+          <div class="text-center">
             <p class="text-xl font-bold m-0 py-2">Write the Docs</p>
+            <div class="gradient-bar h-1"></div>
           </div>
           <a href="https://www.meetup.com/wtd-dallas/">
             <img src="/images/v2-wide.svg" alt="Write the Docs Dallas logo" class="rounded pt-4 pb-2">

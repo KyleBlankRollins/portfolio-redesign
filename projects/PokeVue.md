@@ -4,4 +4,11 @@ description: "A website built with Vue.js, Gridsome, and AirTable that lets you 
 image: 
 url: "Not yet available."
 status: "In development"
+tech: [
+  { 'name':'Gridsome' },
+  { 'name':'GraphQL' },
+  { 'name':'Linux development environment' },
+  { 'name':'AirTable' },
+  { 'name':'CSS Grid' }
+]
 ---    

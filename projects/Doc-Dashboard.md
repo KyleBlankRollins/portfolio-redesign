@@ -4,4 +4,11 @@ description: "A website built with Vue CLI that uses the Google Analytics API to
 image: 
 url: "Not publicly available."
 status: "Private"
+tech: [
+  { 'name':'Vue.js' },
+  { 'name':'Vue CLI' },
+  { 'name':'Google Analytics APIs' },
+  { 'name':'CSS Grid' },
+  { 'name':'JavaScript' }
+]
 ---    

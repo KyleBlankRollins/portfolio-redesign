@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap text-xl justify-center">
-    <div v-for="project in projects" class="projects my-12 overflow-hidden items-center rounded">
+  <div class="flex flex-wrap text-xl">
+    <div v-for="project in projects" class="projects my-12 items-center shadow-md rounded">
       <div class="px-6 py-2 text-white font-bold text-2xl bg-secondary font-display">
         {{ project.frontmatter.title }}
       </div>
@@ -8,7 +8,7 @@
       <div class="bg-cover bg-white">
         <img :src="project.frontmatter.image" />
       </div>
-      <div class="bg-white mx-8 my-8 shadow-md rounded">
+      <div class="bg-white mx-8 my-8 rounded">
         <div class="px-6 py-2 font-body m-0">
           <p>{{ project.frontmatter.description }}</p>
           <ul>

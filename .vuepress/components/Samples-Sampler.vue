@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="samples max-w-sm lg:max-w-full py-8 px-8 my-10 ml-10 rounded" v-for="sample in samples">
+  <div class="flex flex-wrap text-xl">
+    <div class="samples max-w-sm lg:max-w-full py-8 px-8 my-10 shadow-md rounded" v-for="sample in samples">
       <div class="lg:flex lg:max-w-full no-underline">
         <div class="w-1/4 bg-cover bg-white border-4 border-white hover:border-4 hover:border-callout mr-4 rounded grow grow:hover">
           <router-link :to="sample.path">
@@ -48,14 +48,6 @@ export default {
 </script>
 
 <style>
-.grow {
-  transition: all .2s ease-in-out;
-}
-
-.grow:hover {
-  transform: scale(1.1); 
-}
-
 .samples:nth-child(odd) {
   background-color: #756265;
 }

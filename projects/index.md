@@ -1,4 +1,5 @@
 ---
+portfolio: true
 title: "Web development projects"
 layout: ProjectsLayout
 sidebar: false

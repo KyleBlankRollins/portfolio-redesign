@@ -1,4 +1,5 @@
 ---
+blog: true
 title: "Second Post"
 description: "Now we're getting somewhere."
 date: "06/22/2019"

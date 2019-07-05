@@ -14,8 +14,8 @@ module.exports = {
     nav: [
       { text: 'About', link: '/' },
       { text: 'Samples', link: '/samples/' },
-      { text: 'Resume', link: '/resume/' },
       { text: 'Web projects', link: '/projects/' },
+      { text: 'Resume', link: '/resume/' },
       { text: 'The Canney Valley (blog)', link: '/articles/' }
     ],
   },

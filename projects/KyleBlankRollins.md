@@ -1,7 +1,7 @@
 ---
 title: "KyleBlankRollins.com"
 description: "This website. Built with VuePress and Tailwind CSS."
-image: 
+image: /images/kyleblankrollins.png
 url: https://kyleblankrollins.com/
 status: "Live"
 tech: [

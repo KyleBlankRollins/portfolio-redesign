@@ -1,4 +1,5 @@
 ---
+blog: true
 title: "First Post"
 description: "In which I experiment with VuePress."
 date: "06/21/2019"

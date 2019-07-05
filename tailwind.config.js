@@ -14,21 +14,13 @@ module.exports = {
         'secondary': '#18151c',
         'secondary-light': '#756265',
         'callout': '#CC414F',
-        'white': '#f8f8f8'
-
-        // 'primary': '#294C5D',
-        // 'callout': '#CC414F',
-        // 'KR-white': '#f7f4f2',
-        // 'secondary': '#201923',
-        // 'secondary-light': '#aa86a2'
-
-        // 'primary': '#294C5D',
-        // 'KR-grey-darker': '#4a4a4a',
-        // 'KR-grey-lighter': '#7D9099',
-        // 'KR-grey-lightest': 'E6E6E6',
-        // 'KR-cyan': '#6BFFE0',
-        // 'KR-peach': '#FFB5AB',
-        // 'callout': '#CC414F'
+        'white': '#f8f8f8',
+        'button-success': '#50955d',
+        'button-primary': '#58587b',
+        'button-info': '#17151c',
+        'button-warning': '#cd8525',
+        'button-danger': '#f44336',
+        'button-default': '#999999'
       },
       boxShadow: {
         'default': '0 1px 3px 0 rgba(117, 98, 101, .6), 0 1px 2px 0 rgba(117, 98, 101, .6)',

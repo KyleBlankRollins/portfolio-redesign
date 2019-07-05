@@ -1,14 +1,12 @@
 <template>
   <div class="m-10 text-secondary text-lg">
     <Navbar />
-    <div class="flex m-10 justify-center">
-      <Home v-if="$page.frontmatter.home" class="max-w-6xl" />
-
-      <Page v-else class="max-w-6xl">
-        <slot name="page-top" slot="top" />
-        <slot name="page-bottom" slot="bottom" />
-      </Page>
-    </div>
+    
+    <div class="flex m-10">
+      <Sidebar />
+      <Posts />
+      <Blog />
+    </div>  
 
     <footer>
       <div class="gradient-bar h-1 rounded-t"></div>
@@ -79,13 +77,17 @@ import Home from "@theme/components/Home.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Page from "@theme/components/Page.vue";
 import Blog from "@theme/components/Blog.vue";
+import Sidebar from "@theme/components/Sidebar.vue";
+import Posts from "@theme/components/Posts.vue";
 
 export default {
   components: { 
     Home, 
     Page, 
     Navbar,
-    Blog
+    Blog,
+    Sidebar,
+    Posts
   }
 };
 </script>

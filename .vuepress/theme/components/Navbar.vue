@@ -1,9 +1,9 @@
 <template>
   <header>
     <nav
-      class="nav flex items-center justify-between flex-wrap text-right border-b border-secondary text-primary font-display text-xl mb-10 py-1"
+      class="nav flex items-center justify-between flex-wrap text-right border-b border-secondary text-primary font-display text-xl mb-10"
     >
-      <router-link class="cursor-pointer" :to="$withBase('/')">
+      <router-link class="cursor-pointer bg-white" :to="$withBase('/')">
         <div>
           <svg version="1.1" viewBox="0 0 26.458 15.259" xmlns="http://www.w3.org/2000/svg" class="h-10">
             <g transform="translate(-101.3 -204.23)">
@@ -33,11 +33,10 @@
           <span v-for="item in $site.themeConfig.nav">
             <span :class="hidden">
               <router-link
-                class="text-sans mr-10 lg:mt-0 no-underline uppercase text-primary hover:text-callout hover:underline"
+                class="py-2 px-4 lg:mt-0 no-underline uppercase text-primary hover:text-callout hover:underline"
                 :to="$withBase(item.link)"
               >
                 {{ item.text }}
-                <span class="arrow"></span>
               </router-link>
             </span>
           </span>
@@ -53,6 +52,7 @@ export default {
     data() {
       return {
         hidden: "lg:inline-block md:hidden sm:hidden hidden"
+
       };
   },
   methods: {
@@ -66,3 +66,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.router-link-exact-active {
+  background: #18151c;
+  color: #F8F8F8 !important;
+}
+</style>
+

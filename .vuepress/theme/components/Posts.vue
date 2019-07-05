@@ -1,5 +1,5 @@
 <template>
-  <div class="initial">
+  <div>
     <div class="max-w-sm lg:max-w-full mb-8" v-for="post in posts">
       <div class="lg:max-w-full no-underline text-secondary lg:flex">
         <div class="w-1/3">
@@ -25,7 +25,7 @@
 
           <div class="flex flex-wrap p-2">
             <div
-              class="p-2 mx-1 bg-secondary-light border-2 border-secondary items-center"
+              class="p-2 m-1 bg-secondary text-sm text-white border-2 border-primary items-center rounded"
               v-for="tag in post.frontmatter.tags"
             >
               <p class="margin-override font-mono">{{ tag.name }}</p>

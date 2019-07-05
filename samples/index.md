@@ -1,4 +1,5 @@
 ---
+portfolio: true
 title: "Work samples"
 layout: SampleLayout
 sidebar: false

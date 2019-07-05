@@ -4,7 +4,7 @@
       <div class="lg:flex lg:max-w-full no-underline">
         <div class="w-1/4 bg-cover bg-white border-4 border-white hover:border-4 hover:border-callout mr-4 rounded grow grow:hover">
           <router-link :to="sample.path">
-            <img :src="sample.frontmatter.image" :alt="sample.frontmatter.imgAlt" />
+            <img class="min-h-full" :src="sample.frontmatter.image" :alt="sample.frontmatter.imgAlt" />
           </router-link>
         </div>
         <div class="w-3/4 flex flex-col justify-between border bg-white rounded">
@@ -20,7 +20,7 @@
 
           <div class="flex flex-wrap p-2">
             <div
-              class="p-2 m-1 bg-secondary hover:bg-callout text-sm text-white border-2 border-primary items-center rounded"
+              class="p-2 m-1 bg-secondary text-sm text-white border-2 border-primary items-center rounded"
               v-for="skill in sample.frontmatter.skills"
             >
               <p class="margin-override font-mono">{{ skill.name }}</p>

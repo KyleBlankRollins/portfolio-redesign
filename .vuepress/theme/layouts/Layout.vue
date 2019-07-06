@@ -78,14 +78,12 @@
 import Home from "@theme/components/Home.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Page from "@theme/components/Page.vue";
-import Blog from "@theme/components/Blog.vue";
 
 export default {
   components: { 
     Home, 
     Page, 
-    Navbar,
-    Blog
+    Navbar
   }
 };
 </script>

@@ -1,6 +1,6 @@
 ---
 title: "PokéVue"
-description: "A website built with Vue.js, Gridsome, and AirTable that lets you compare the orginal 151 Pokémon."
+description: "A website built with Vue.js, Gridsome, and AirTable that lets you compare the orginal 151 Pokémon. You can see artwork, stats and descriptions. AirTable serves as a quasi-database while Gridsome's GraphQL data layer allows for easy retrival and visualization."
 image: 
 status: "In development"
 tech: [
